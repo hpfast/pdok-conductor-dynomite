@@ -1,4 +1,4 @@
 #!/bin/bash
 
-src/dynomite --conf-file=/conf/pdok-dynomite-test.yml -v11
+src/dynomite --conf-file=/conf/pdok-dynomite-simple.yml -v11
 
