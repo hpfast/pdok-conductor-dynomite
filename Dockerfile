@@ -16,7 +16,7 @@ RUN git clone https://github.com/Netflix/dynomite.git
 COPY startup.sh dynomite/startup.sh
 RUN chmod +x dynomite/startup.sh
 
-COPY pdok-dynomite-test.yml conf/pdok-dynomite-test.yml
+COPY pdok-dynomite-simple.yml conf/pdok-dynomite-simple.yml
 
 # Move to working directory
 WORKDIR dynomite/
